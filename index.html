@@ -16,26 +16,33 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
+					<!-- Toggle de idioma -->
+					<div id="language-toggle">
+						<div class="toggle-switch">
+							<div class="flag flag-es"></div>
+							<div class="flag flag-en"></div>
+							<div class="toggle-thumb"></div>
+						</div>
+					</div>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Willis Corto</a></h1>
-					<p>I got reprogrammed by a rogue AI<br />
-					and now I'm totally cray</p>
+					<h1 id="logo"><a href="#">Cristo Alvarado</a></h1>
+					<p data-text = "resumen_cristo">Matemático apasionado por la<br />
+					Programación</p>
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#one" class="active" data-text="acerca_de">Acerca de</a></li>
+						<li><a href="#two" data-text="cosas_hago">¿Qué hago?</a></li>
+						<li><a href="#three" data-text="logros">Unos Cuantos Logros</a></li>
+						<li><a href="#four" data-text="contacto">Contacto</a></li>
 					</ul>
 				</nav>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/UlteriorCoast18" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/cristo-daniel-alvarado-2b77a7333" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:cristo.daniel.alvarado@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -47,63 +54,79 @@
 					<div id="main">
 
 						<!-- One -->
+						 	<div class="image main" data-position="center">
+								<img src="images/banner.jpg" alt="" />
+							</div>
 							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
-								</div>
 								<div class="container">
 									<header class="major">
-										<h2>Read Only</h2>
-										<p>Just an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+										<h2 data-text = "acerca_de">Acerca de mi</h2>
+										<p data-text = "acerca_de_info">Matemático puro/aplicado que a veces programa.</p>
 									</header>
-									<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+									<p data-text="acerca_de_infpo_detallada" style="text-align: justify"></p>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Things I Can Do</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Write all the code</li>
-										<li class="icon solid fa-cubes">Stack small boxes</li>
-										<li class="icon solid fa-book">Read books and stuff</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
-										<li class="icon solid fa-bolt">Lightning bolt</li>
-										<li class="icon solid fa-users">Shadow clone technique</li>
-									</ul>
+									<h3 data-text="cosas_hago">Mi trabajo</h3>
+									<p data-text="estudios" style="text-align: justify">Estudié la Licenciatura en Física y Matemáticas, especializándome en esta última y graduándome con Mención Honorífica en la <a href = "https://www.esfm.ipn.mx/" target = "_blank">Escuela Superior de Física y Matemáticas</a> del <a href = "https://www.ipn.mx/" target = "_blank">Instituto Politécnico Nacional</a> en México.</p>
+									<div class="features">
+										<article>
+											<a href="/assets/documents/ejemplos_consistentes_problema_malykhin_tesis_cristo_alvarado_rev_3.pdf" class="image" target="_blank">
+												<img src="images/portada_tesis.png" alt="Portada de la tesis" />
+											</a>
+											<div class="inner" data-text="texto_tesis">
+												<h4>Tesis de Licenciatura: Ejemplos Consistentes en el Problema de Malykhin</h4>
+												
+												<p style="text-align: justify; font-size: 0.9em; line-height: 1.4;">
+												En Topología General, un problema fundamental es determinar cuándo un espacio puede ser metrizable. Para grupos topológicos el Teorema de Birkhoff-Kakutani establece que son metrizables si y solo si son "primero numerables".<br><br>
+
+												Surge entonces la pregunta: ¿podemos debilitar la primero numerabilidad? Esto se hace con espacios Fréchet-Urysohn. V. I. Malykhin (1978) se preguntó sobre la existencia de un grupo topológico que fuera Fréchet-Urysohn y separable pero que aún así no fuera metrizable.<br><br>
+
+												En esta tesis se construye un grupo topológico Fréchet-Urysohn y separable no metrizable en dos modelos consistentes de ZFC.
+												</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://github.com/UlteriorCoast18/Conocimiento" class="image" target="_blank">
+												<img src="images/portada_repositorio.png" alt="Portada Repositorio" />
+											</a>
+											<div class="inner">
+												<h4 data-text="texto_nombre_repositorio">Repositorio de Notas</h4>
+												<p style="text-align: justify; font-size: 0.9em; line-height: 1.4;" data-text="texto_repositorio_1">
+													A lo largo de mis años de estudiante tuve la fortuna de poder almacenar las notas de los cursos que he tomado en este período de tiempo. El repositorio:
+												</p>
+												<p style="text-align: center; margin-top: -25px;"><a href = "https://github.com/UlteriorCoast18/Conocimiento" class="icon brands fa-github" target="_blank"> Knowledge/Conocimiento</a></p>
+												<p style="text-align: justify; font-size: 0.9em; line-height: 1.4; margin-top: -25px;" data-text="texto_repositorio_2">
+													Contiene notas de todos los cursos que he tomado o impartido, junto con algunas adicionales de otros temas que me he dedicado a investigar por mi cuenta. Estas notas son libres, así como el código LaTex para que cualquiera pueda tomar y modificarlas a su gusto. Errores que se lleguen a encontrar en las mismas, favor de contactarme para poder solucionar el detalle lo antes posible.
+												</p>
+											</div>
+										</article>
+									</div>
 								</div>
 							</section>
 
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+									<h3 data-text="logros">A Few Accomplishments</h3>
+									<p>
+										Algunos logros que he conseguido a lo largo de mi trayectoria académica son los siguientes:
+										<div class="features">
+											<article>
+												<img class = "image" src="images/portada_tesis.png" alt="Título con Mención Honorífica"/>
+											<div class="inner" data-text="texto_mencion">
+												<h4>Mención Honorífica en Licenciatura</h4>
+												
+												<p style="text-align: justify; font-size: 0.9em; line-height: 1.4;">
+												
+												</p>
 											</div>
 										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
+										</div>
+									</p>
 									</div>
 								</div>
 							</section>
@@ -482,6 +505,185 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				$(document).ready(function() {
+				const $toggle = $("#language-toggle");
+				const $thumb = $toggle.find(".toggle-thumb");
+				const $flagES = $(".flag-es");
+				const $flagEN = $(".flag-en");
 
+				const translations = {
+					en: {
+						resumen_cristo: "Mathematician with a <br> passion for coding.",
+						acerca_de: "About Me",
+						cosas_hago: "My Studies and Work",
+						logros: "Achievements",
+						contacto: "Contact",
+						acerca_de_info: "Pure/applied mathematician who occasionally programs",
+						acerca_de_infpo_detallada: `My main research interests in mathematics include:
+							<ul class="interests">
+								<li>Commutative Algebra</li>
+								<li>Algebraic Topology</li>
+								<li>Differential Topology</li>
+								<li>General Topology</li>
+								<li>Logic and Set Theory</li>
+							</ul>
+							<p style="margin-top: -30px;">In programming, I am proficient in C, C++, Java, and Python. I am particularly interested in projects addressing mathematical problems, with a strong focus on Machine Learning, Artificial Intelligence, and Data Analysis.</p>
+							<p style="margin-top: -30px;">I am currently working as a SAP Payroll Trainee Consultant at <a href="https://www.linkedin.com/company/dxgrow-people-experience/posts/?feedView=all" target="_blank">Dxgrow</a>, consistently striving to provide excellent client service, deliver high-quality work, and actively contribute to team collaboration.</p>`,
+						estudios: `I pursued a Bachelor’s degree in Physics and Mathematics, specializing in the latter, and graduated with Honors from the <a href="https://www.esfm.ipn.mx/" target="_blank">Escuela Superior de Física y Matemáticas</a> at the <a href="https://www.ipn.mx/" target="_blank">Instituto Politécnico Nacional</a> in Mexico.</p>`,
+						texto_tesis: `<h4>Bachelor’s Thesis: Consistent Examples in Malykhin’s Problem</h4>
+												
+						<p style="text-align: justify; font-size: 0.9em; line-height: 1.4;">
+						In General Topology, a fundamental problem is determining when a space can be metrizable. For topological groups, the Birkhoff–Kakutani Theorem establishes that they are metrizable if and only if they are “first-countable.”<br><br>
+
+						This raises the question: can first-countability be weakened? This is done with Fréchet–Urysohn spaces. V. I. Malykhin (1978) asked whether there exists a topological group that is Fréchet–Urysohn and separable, yet still non-metrizable.<br><br>
+
+						In this thesis, a separable non-metrizable Fréchet–Urysohn topological group is constructed in two consistent models of ZFC.
+						</p>`,
+						texto_nombre_repositorio: "Academic Notes Collection",
+						texto_repositorio_1: "Throughout my years as a student, I've had the good fortune to store the notes from the courses I've taken during this period. This repository:",
+						texto_repositorio_2: "Contains notes from every course I have taken or taught, along with additional notes on other topics I've dedicated myself to researching independently. These notes, as well as the LaTeX source code, are free for anyone to take and modify as they wish. Should you find any errors, please contact me so I can resolve the issue as quickly as possible.",
+					},
+					es: { 
+						resumen_cristo: "Matemático apasionado por la <br> Programación",
+						acerca_de: "Acerca de mí",
+						cosas_hago: "Mis Estudios y Trabajos",
+						logros: "Reconocimientos",
+						contacto: "Contacto",
+						acerca_de_info: "Matemático puro/aplicado que a veces programa",
+						acerca_de_infpo_detallada: `Mis principales áreas de interés en investigación matemática incluyen:
+							<ul>
+								<li>Álgebra Conmutativa</li>
+								<li>Topología Algebraica</li>
+								<li>Topología Diferencial</li>
+								<li>Topología General</li>
+								<li>Lógica y Teoría de Conjuntos</li>
+							</ul>
+							<p style="margin-top: -30px;">								
+							En el ámbito de la programación, manejo con soltura los lenguajes C, C++, Java y Python. Me interesan especialmente los proyectos orientados a la resolución de problemas matemáticos, con un enfoque particular en Machine Learning, Inteligencia Artificial y Análisis de Datos.</p>
+							<p style="margin-top: -30px;">Actualmente desempeño el cargo de Consultor Trainee en SAP Payroll en <a href="https://www.linkedin.com/company/dxgrow-people-experience/posts/?feedView=all" target="_blank">Dxgrow</a>, comprometiéndome siempre a ofrecer un servicio de calidad al cliente, aportar al trabajo en equipo y contribuir de manera efectiva a los proyectos en los que participo.</p>`,
+						estudios: `Estudié la Licenciatura en Física y Matemáticas, especializándome en esta última y graduándome con Mención Honorífica en la <a href = "https://www.esfm.ipn.mx/" target = "_blank">Escuela Superior de Física y Matemáticas</a> del <a href = "https://www.ipn.mx/" target = "_blank">Instituto Politécnico Nacional</a> en México.
+						<br>
+						Hice mis estudios de Bachillerato en el <a href = "https://www.cecyt9.ipn.mx/" target = "_blank">Centro de Estudios Científicos y Tecnológicos 9 "Juan de Dios Bátiz"</a> del <a href = "https://www.ipn.mx/" target = "_blank">Instituto Politécnico Nacional</a>, también en México, obteniendo además el título de Técnico en Programación.`,
+						texto_tesis: `<h4>Tesis de Licenciatura: Ejemplos Consistentes en el Problema de Malykhin</h4>
+						
+						<p style="text-align: justify; font-size: 0.9em; line-height: 1.4;">
+						En Topología General, un problema fundamental es determinar cuándo un espacio puede ser metrizable. Para grupos topológicos el Teorema de Birkhoff-Kakutani establece que son metrizables si y solo si son "primero numerables".<br><br>
+
+						Surge entonces la pregunta: ¿podemos debilitar la primero numerabilidad? Esto se hace con espacios Fréchet-Urysohn. V. I. Malykhin (1978) se preguntó sobre la existencia de un grupo topológico que fuera Fréchet-Urysohn y separable pero que aún así no fuera metrizable.<br><br>
+
+						En esta tesis se construye un grupo topológico Fréchet-Urysohn y separable no metrizable en dos modelos consistentes de ZFC.
+						</p>`,
+						texto_nombre_repositorio: "Colección de Notas Académicas",
+						texto_repositorio_1: "A lo largo de mis años de estudiante tuve la fortuna de poder almacenar las notas de los cursos que he tomado en este período de tiempo. El repositorio:",
+						texto_repositorio_2:"Contiene notas de todos los cursos que he tomado o impartido, junto con algunas adicionales de otros temas que me he dedicado a investigar por mi cuenta. Estas notas son libres, así como el código LaTex para que cualquiera pueda tomar y modificarlas a su gusto. Errores que se lleguen a encontrar en las mismas, favor de contactarme para poder solucionar el detalle lo antes posible.",
+					}
+				};
+
+
+				function detectLanguage() {
+					const userLang = navigator.language || navigator.userLanguage;
+					return userLang.startsWith("es") ? "es" : "en";
+				}
+
+				function setLanguage(lang) {
+					$("[data-text]").each(function() {
+					const key = $(this).data("text");
+					$(this).html(translations[lang][key]);
+					});
+
+					if(lang === "es") {
+					$thumb.css("left", "6px"); // alrededor de la bandera de México
+					$flagES.removeClass("flag-inactive");
+					$flagEN.addClass("flag-inactive");
+					} else {
+					$thumb.css("left", "60px"); // alrededor de la bandera de USA
+					$flagEN.removeClass("flag-inactive");
+					$flagES.addClass("flag-inactive");
+					}
+				}
+
+				let lang = detectLanguage();
+				setLanguage(lang);
+
+				$toggle.click(function() {
+					lang = (lang === "en") ? "es" : "en";
+					setLanguage(lang);
+				});
+				});
+			</script>
+
+			<style>
+				#language-toggle {
+					width: 100%;               /* ocupa todo el ancho */
+					display: flex;
+					justify-content: center;   /* centrar el toggle */
+					margin-bottom: 20px;
+				}
+
+				.toggle-switch {
+					width: 90px;
+					height: 36px;
+					position: relative;        /* relativo para banderas y thumb */
+					cursor: pointer;
+					border-radius: 20px;
+					background: #ddd;
+				}
+
+				.flag {
+					width: 20px;
+					height: 20px;
+					position: absolute;
+					top: 8px;
+					background-size: cover;
+					border-radius: 3px;
+					transition: opacity 0.3s, filter 0.3s;
+				}
+
+				.flag-es { left: 8px; background-image: url('images/mex_flag.png'); }
+				.flag-en { right: 8px; background-image: url('images/usa_flag.png'); }
+
+				.flag-inactive {
+					filter: grayscale(100%) brightness(100%);
+					opacity: 0.5;
+				}
+
+				.toggle-thumb {
+					width: 24px;
+					height: 24px;
+					border: 4px solid #3b0608;
+					border-radius: 50%;
+					position: absolute;
+					top: 6px;
+					left: 0;                   /* moverá JS */
+					box-shadow: 0 0 5px rgba(0,0,0,0.3);
+					transition: left 0.3s;
+					pointer-events: none;
+				}
+
+				.intereses {
+				margin-top: -30px;   /* elimina el margen superior */
+				padding-left: 20px; /* opcional: ajusta la sangría */
+				}
+
+				.features .image img {
+					border: 3px solid #fff;
+					padding: 10px;
+					background: #fff;
+					box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+					/* estado por defecto: desenfocado */
+					filter:brightness(0.97);
+					transition: filter 0.3s, transform 0.3s, box-shadow 0.3s;
+				}
+
+				.features .image img:hover,
+				.features .image img.active {
+					/* al pasar el mouse o si está "seleccionada" */
+					filter: brightness(1);
+					transform: scale(1.03);
+					box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+				}
+			</style>
 	</body>
 </html>
