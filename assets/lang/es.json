@@ -21,5 +21,10 @@
   "message_me_text": "Si te interesa más información al respecto (por ejemplo, para mi CV), puedes <strong>enviarme un correo electrónico llenando los campos a continuación</strong>. ¡Gracias!",
   "name_input": "<input type='text' name='name' id='name' placeholder='Nombre'/>",
   "subject_input": "<input type='text' name='subject' id='subject' placeholder='Asunto'/>",
-  "message_input": "<textarea name='message' id='message' placeholder='Mensaje' rows='6'></textarea>"
+  "message_input": "<textarea name='message' id='message' placeholder='Mensaje' rows='6'></textarea>",
+  "caption_image_expand": "Click en la imagen para hacer zoom",
+  "logros_text": "Algunos logros que he conseguido a lo largo de mi trayectoria académica son los siguientes:",
+  "texto_mencion": "<h4>Mención Honorífica de Licenciatura</h4> <p style='text-align: justify; font-size: 0.9em; line-height: 1.4;'>Obtuve <strong>Mención Honorífica</strong> por mi tesis de Licenciatura en Física y Matemáticas (ESFM, IPN).<br><br> El trabajo, 'Ejemplos Consistentes en el Problema de Malykhin', se centra en la construcción de un grupo topológico Fréchet-Urysohn y separable no metrizable en modelos consistentes de ZFC.</p>",
+  "texto_prototipos": "<h4>2° Lugar en el Premio Mejores Prototipos (IPN)</h4><p style='text-align: justify; font-size: 0.9em; line-height: 1.4;'>Reconocimiento por el desarrollo de 'Cyclon', una aplicación para el monitoreo y predicción de huracanes, utilizando regresión lineal y análisis de agrupamiento.</p>",
+  "texto_desempeno": "<h4>Egresado Distinguido por Desempeño Académico</h4><p style='text-align: justify; font-size: 0.9em; line-height: 1.4;'>Reconocimiento por desempeño sobresaliente al finalizar la Licenciatura con un promedio de 9.27/10.00 (ESFM, IPN).</p>"
 }

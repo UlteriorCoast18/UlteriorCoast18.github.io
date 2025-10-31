@@ -21,5 +21,10 @@
   "message_me_text": "If you are interested in more information (for example, for my CV), you can <strong>send me an email by filling out the fields below</strong>. Thank you!",
   "name_input": "<input type='text' name='name' id='name' placeholder='Name'/>",
   "subject_input": "<input type='text' name='subject' id='subject' placeholder='Subject'/>",
-  "message_input": "<textarea name='message' id='message' placeholder='Message' rows='6'></textarea>"
+  "message_input": "<textarea name='message' id='message' placeholder='Message' rows='6'></textarea>",
+  "caption_image_expand": "Click on the image to zoom in",
+  "logros_text": "Some of the achievements I have accomplished throughout my academic career are the following:",
+  "texto_mencion": "<h4>Honorable Mention (Highest Honours) in Bachelor’s Degree</h4> <p style='text-align: justify; font-size: 0.9em; line-height: 1.4;'>I received an <strong>Honorable Mention</strong> for my Bachelor's thesis in Physics and Mathematics (ESFM, IPN).<br><br>The work, 'Consistent Examples in Malykhin’s Problem', focuses on the construction of a Fréchet-Urysohn, separable, non-metrizable topological group in consistent models of ZFC.</p>",
+  "texto_prototipos": "<h4>2nd Place – Best Prototypes Award (IPN)</h4><p style='text-align: justify; font-size: 0.9em; line-height: 1.4;'>Recognition for the development of 'Cyclon', an application for hurricane monitoring and prediction, using linear regression and cluster analysis.</p>",
+  "texto_desempeno": "<h4>Distinguished Graduate for Academic Performance</h4><p style='text-align: justify; font-size: 0.9em; line-height: 1.4;'>Recognition for outstanding performance upon completing the Bachelor's degree with a GPA of 9.27/10.00 (ESFM, IPN).</p>"
 }
