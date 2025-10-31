@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   const $toggle = $("#language-toggle");
   const $thumb = $toggle.find(".toggle-thumb");
   const $flagES = $(".flag-es");
@@ -10,13 +10,26 @@ $(document).ready(function() {
   }
 
   function setLanguage(lang) {
-    $.getJSON(`assets/lang/${lang}.json`, function(translations) {
-      $("[data-text]").each(function() {
-        const key = $(this).data("text");
-        $(this).html(translations[key]);
-      });
-    });
 
+    // 1. Aplica fade-out a los textos traducibles
+    const $elements = $("[data-text]");
+    $elements.addClass("hidden");
+
+    // 2. Espera a que termine la animación (300ms) antes de cambiar el contenido
+    setTimeout(() => {
+      $.getJSON(`assets/lang/${lang}.json`, function (translations) {
+
+        $elements.each(function () {
+          const key = $(this).data("text");
+          $(this).html(translations[key]);
+        });
+
+        // 3. Fade-in
+        $elements.removeClass("hidden");
+      });
+    }, 300);
+
+    // 🟢 Animación del toggle (lo que ya tenías)
     if (lang === "es") {
       $thumb.css("left", "6px");
       $flagES.removeClass("flag-inactive");
@@ -31,7 +44,7 @@ $(document).ready(function() {
   let lang = detectLanguage();
   setLanguage(lang);
 
-  $toggle.click(function() {
+  $toggle.click(function () {
     lang = (lang === "en") ? "es" : "en";
     setLanguage(lang);
   });
